@@ -1,6 +1,6 @@
 on("ready",function(){
 on("chat:message",function(msg){
-  if(msg.type=="api" && msg.content.indexOf("!makeMule")==0){
+  if(msg.type=="api" && msg.content.indexOf("!makeRandomLoot")==0){
 
     myList =[
     [`RT`,`!rt[Delimiter:BR]`],
