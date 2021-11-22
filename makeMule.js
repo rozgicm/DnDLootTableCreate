@@ -5,7 +5,7 @@ on("chat:message",function(msg){
     myList =[
     [`RT`,`!rt[Delimiter:BR]`],
     [`Template`,`/w gm &{template:npcaction} &{noerror} {{rname=Treasure}} {{description=`],
-    [`LinkStyle`,`" style"=background: none; background-color: transparent; border: none; padding: 0px; text-decoration: none; display: inline-block;`],
+    [`LinkStyle`,`" style="background: none; background-color: transparent; border: none; padding: 0px; text-decoration: none; display: inline-block;`],
     [`HeaderLinkStyle`,`%{Loot|LinkStyle}color: #7e2d40; font-weight: bold; display: block; text-align: center;`],
     [`ItemLinkStyle`,`%{Loot|LinkStyle} font-size: 10px; background-color: #F2F5D3; border: 1px solid black; padding:0px 2px; min-width: 8px; text-align: center;`],
     [`RefStyle`,`%{Loot|LinkStyle} color: #7e2d40; font-size: 10px; font-style: italic;`],
